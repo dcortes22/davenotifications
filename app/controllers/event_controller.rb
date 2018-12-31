@@ -52,7 +52,7 @@ class EventController < ApplicationController
     end
 
     def send_message(object)
-        uri = URI("https://hooks.slack.com/services/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")
+        uri = URI("https://hooks.slack.com/services/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")
         params = {
             "attachments":[
                 {
